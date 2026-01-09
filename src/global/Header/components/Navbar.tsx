@@ -6,9 +6,11 @@ export default function Navbar() {
       {NavbarData.map((items, index) => (
         <div
           key={index}
-          className="uppercase text-[10px] cursor-pointer group-hover:invert text-white hover:text-tertiary font-semibold"
+          className="uppercase text-[10px] group-hover:invert text-white hover:text-tertiary font-semibold"
         >
-          <p className="m-3.5">{items.menu}</p>
+          <p className="m-3.5 cursor-pointer">
+            {items.menu}
+          </p>
         </div>
       ))}
     </section>
