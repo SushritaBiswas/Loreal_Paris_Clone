@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 
 export default function Header() {
   return (
-    <section className="max-w-500 group w-full max-h-36 bg-amber-200 mx-auto py-5 hover:bg-white duration-200">
+    <section className="max-w-500 group w-full max-h-36 bg-transparent mx-auto py-5 hover:bg-white duration-200">
       {/* Image */}
       <div className="invert group-hover:invert-0 duration-200 relative max-w-60 w-full aspect-4/1 cursor-pointer mx-auto">
         <Image

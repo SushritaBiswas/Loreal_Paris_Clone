@@ -1,3 +1,12 @@
+import HeaderBackground from "@/global/Header/components/HeaderBackground";
+
 export default function LandingPage() {
-  return <div></div>;
+  return (
+    <div>
+      <HeaderBackground
+        imgSrc="/Landing-Page/L1.jpg"
+        topic=""
+      />
+    </div>
+  );
 }
