@@ -6,6 +6,7 @@
 }
 
 @theme inline {
+  --color-tertiary: oklch(51.28% 0.008 219.63);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
